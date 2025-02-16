@@ -30,16 +30,13 @@
 
         table {
             margin-inline: auto;
-            border-collapse: separate;
             width: 75%;
-            border-radius: 6px;
-            border: 4px, solid rgb(185, 75, 75);
         }
 
-        th, td {
-            border-left: 4px, solid rgb(185, 75, 75);
-            border-top: 4px, solid rgb(185, 75, 75);
+        table, th, td {
+            border: 4px, solid rgb(185, 75, 75);
             font-size: 17pt;
+            border-collapse: collapse;
         }
 
         th {
@@ -48,6 +45,11 @@
 
         td {
             background-color: blanchedalmond;
+        }
+
+        td:first-child, th:first-child {
+            border-left: none;
+            border-radius: 10px;
         }
 
     </style>
@@ -237,6 +239,39 @@
                     <td>p</td>
                     <td>t</td>
                     <td>k</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>nasal</th>
+                    <td>n</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>fricative</th>
+                    <td>ϕ</td>
+                    <td>s</td>
+                    <td>x</td>
+                    <td>h</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>trill</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>nʳ</td>
+                </tr>
+                <tr>
+                    <th>semivowel</th>
+                    <td>w</td>
+                    <td></td>
+                    <td>(w)</td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
